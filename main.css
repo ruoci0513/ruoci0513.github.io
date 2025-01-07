@@ -1,0 +1,74 @@
+body{
+    background-image: url(image/123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(96, 32, 179);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(63, 65, 66);
+}
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: alicrgb(63, 65, 66);
+}
+.navbar-light .navbar-brand {
+    color: rgb(63, 65, 66);
+}
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(110, 99, 124);
+}
+
+#top ul li{
+    display: inline-block
+}
+
+#top ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 40px;
+}
+
+#top ul li a:hover{
+    color: rgb(255, 242, 203);
+}
+
+#top ul li.active a{
+    background-color: rgb(234, 222, 212);
+    color: black;
+}
+
+
+div {
+    background-color: transparent; 
+    border: 10px solid rgba(255, 255, 255, 0.658); 
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.699); 
+    margin: 30px 0;
+  }
+
+  /* 設置圖片容器 */
+.image-container {
+    display: inline-block;
+    overflow: hidden; /* 隱藏超出容器範圍的圖片部分 */
+}
+
+/* 預設圖片樣式 */
+img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 鼠標懸停時，圖片放大 */
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);  /* 可選：增加亮度 */
+}
